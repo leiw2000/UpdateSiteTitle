@@ -12,9 +12,7 @@
     <script  type="text/javascript" src="//ajax.aspnetcdn.com/ajax/4.0/1/MicrosoftAjax.js"></script>
     <script type="text/javascript" src="_layouts/15/sp.runtime.js"></script>
     <script type="text/javascript" src="_layouts/15/sp.js"></script>
-
     <meta name="WebPartPageExpansion" content="full" />
-
     <!-- Add your CSS styles to the following file -->
     <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
 
@@ -29,18 +27,13 @@
 
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
-
     <div><table border="0" cellpadding="3" cellspacing="3">
-
-
         <tr><td>Site Title:</td><td> <span id="texTitle"> </span></td></tr>
         <tr><td>New Title:</td><td><input id="texTitleNew" type="text" value="" style="width:400px;"  /></td></tr>
-         
         <tr><td colspan="2"><input id="btnSet" onclick="javascript:UpdateSPWebTitle();" type="button" value="Update Site Title"/> &nbsp;&nbsp;
          <input id="btnCancel" onclick="history.go(-1); return false;" type="button" value="Cancel"/></td></tr>
          </table>
          <br />
         <span id="message"> </span>
     </div>
-
 </asp:Content>
