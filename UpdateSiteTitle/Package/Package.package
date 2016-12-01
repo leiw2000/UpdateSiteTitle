@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="3761547f-cf91-40ad-bd1f-18539017fa0b" 
+        solutionId="3761547f-cf91-40ad-bd1f-18539017fa0b" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="UpdateSiteTitle"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="da91af0d-d741-4ca5-abee-f04e2155df66" />
+  </features>
+</package>
